@@ -1,0 +1,471 @@
+body{
+    background-color: #000000;
+    color: white;  
+}
+
+section{
+    background-image: url(./Solar/B-Main.jpg);
+}
+
+.container-1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 75%;
+    margin-left: 150px;
+}
+
+.mainh1{
+    font-size: 5rem;
+    font-family: 'Roboto Mono', monospace;
+    color: #a5e3ba;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.mainp1{
+    font-size: 1.5rem;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #84ae92;
+    margin-top: 0%;
+}
+
+
+
+.list-1{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+.item-1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #a9eaea54;
+    border-radius: 5%;
+    width: 10vw;
+}
+
+.cont-1{
+    max-width: 90vw;
+    margin-left: 3%;
+}
+
+#pi{
+    margin-bottom: 0%;
+    font-size: 0.9rem;
+    color: #a9d3ee;
+    font-family: 'Karla', sans-serif;
+    font-weight: 600;
+}
+
+#pia{
+    font-size: 0.75rem;
+    font-weight: bold;
+    font-family: 'Karla', sans-serif;
+}
+
+.container-2{
+    display: flex;
+    width: 70vw;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./Solar/solarsys-1.jpg);
+    margin-left: 14.5%;
+    margin-top: 10vh;
+    border-radius: 10px;
+}
+
+.content-1{
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    border-radius: 50px;
+    justify-content: center;
+}
+
+.mainh2{
+    font-size: 2.25rem;
+    font-family: 'Karla', sans-serif;
+    padding-left: 60px;
+    font-weight: bolder;
+    text-shadow: 1px 1px 50px white;
+}
+
+#ss{
+    color: rgba(255, 255, 255, 0.831);
+    text-shadow: none;
+}
+
+.mainp2{
+    font-size: 1.15rem;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.container-3{
+    display: flex;
+    width: 90%;
+    height: 360px;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+    margin-top: 20vh;
+    background-color: #a9d3ee16;
+    margin-left: 5%;
+    border-radius: 10PX;
+}
+
+.img-1{
+    height: 300px;
+    width: 360px;
+    border-radius: 10px;
+}
+
+.mainp3{
+    font-size: 4.5rem;
+    font-family: 'Roboto Mono', monospace;
+}
+
+#planets{
+    color: aqua;
+}
+
+.sun{
+    display: flex;
+    width: 90%;
+    height: 400px;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+    margin-top: 20vh;
+    background-color: #a9d3ee16;
+    margin-left: 5%;
+    border-radius: 10PX;
+}
+
+.cont-sun{
+    font-size: 1.4rem;
+    text-shadow: 5px 5px 40px #ffffffd5;
+    line-height: 30px;
+    color: #f7f7b2;
+    font-family: 'Karla', sans-serif;
+}
+
+#the{
+    font-size: 3.5rem;
+    color: #ffffffc8;
+    font-family: 'Roboto Mono', monospace;
+}
+
+#sun{
+    font-size: 4rem;
+    color: #fffb00;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.img-sun{
+    height: 320px;
+    width: 320px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 50px #c2c28a6f;
+}
+
+.main-sun{
+    text-shadow: 5px 5px 40px yellow;
+}
+
+.sun-1{
+    width: 60%;
+}
+
+.planet{
+    display: flex;
+    width: 90%;
+    height: 450px;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+    margin-top: 20vh;
+    background-color: #a9d3ee16;
+    margin-left: 5%;
+    border-radius: 10PX;
+}
+
+.planet img{
+    height: 320px;
+    width: 320px;
+    border-radius: 10px;
+}
+
+.planet div{
+    width: 60%;
+    position: relative;
+    bottom: 30px;
+    
+}
+
+.planet h1{
+    font-size: 3.5rem;
+    margin-bottom: 0%;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.planet p{
+    font-size: 1.4rem;
+    text-shadow: 5px 5px 40px #ffffffd5;
+    line-height: 30px;
+    margin-top: 20px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 500;
+}
+
+.mercury h1{
+    color: #e4a177;
+    text-shadow: 5px 5px 40px #f96103;
+}
+
+.mercury p{
+    color: #e9d0c0;
+    text-shadow: 5px 5px 40px #e9d0c0bc;
+}
+
+.mercury img{
+    box-shadow: 1px 1px 50px #e9d0c0e1;
+}
+
+.venus{
+    flex-direction: row-reverse;
+}
+
+.venus h1{
+    color: #f1652e;
+    text-shadow: 5px 5px 40px #ff4800;
+}
+
+.venus p{
+    color: #d9ab99;
+    text-shadow: 5px 5px 40px #d9ab99d0;
+}
+
+.venus img{
+    box-shadow: 1px 1px 50px #f59169d4;
+}
+
+.earth{
+    height: 500px;
+}
+
+.earth div{
+    width: 50%;
+    height: 380px;
+    position: relative;
+    bottom: 50px;
+}
+
+.earth h1{
+    color: #008cff;
+    text-shadow: 5px 5px 40px #008cff;
+}
+
+.earth p{
+    color: #93d7f9de;
+    text-shadow: 5px 5px 40px #4faaf5cf;
+}
+
+.earth img{
+    width: 40%;
+    box-shadow: 1px 1px 50px #77c8e7e1;
+}
+
+.mars{
+    height: 550px;
+    flex-direction: row-reverse;
+}
+
+.mars h1{
+    color: #ed4204;
+    text-shadow: 5px 5px 40px #ff4400;
+}
+
+.mars p{
+    color: #f79875;
+    text-shadow: 5px 5px 40px #f5784aca;
+}
+
+.mars img{
+    box-shadow: 1px 1px 50px #f5784ae7;
+}
+
+.jupiter{
+    height: 480px;
+}
+
+.jupiter h1{
+    color: #fc4747;
+    text-shadow: 5px 5px 40px #fc4747;
+}
+
+.jupiter p{
+    color: #ee8a8a;
+    text-shadow: 5px 5px 40px rgba(241, 124, 81, 0.87);
+}
+
+.jupiter img{
+    box-shadow: 1px 1px 50px #fc4747e6;
+}
+
+.saturn{
+    height: 500px;
+    flex-direction: row-reverse;
+}
+
+.saturn h1{
+    color: #cc8e08;
+    text-shadow: 5px 5px 40px #f1d88c;
+}
+
+.saturn p{
+    color: #f1d378;
+    text-shadow: 5px 5px 40px #f1c84ad8;
+}
+
+.saturn img{
+    box-shadow: 1px 1px 50px #edb50cd5;
+}
+
+.uranus{
+    height: 520px;
+}
+
+.uranus h1{
+    color: #03e6e6;
+    text-shadow: 5px 5px 40px #00ffff;
+}
+
+.uranus p{
+    color: #aef8f8;
+    text-shadow: 5px 5px 40px #a1f0f0d8;
+}
+
+.uranus img{
+    box-shadow: 1px 1px 50px #0bdcdccc;
+}
+
+.neptune{
+    height: 480px;
+    flex-direction: row-reverse;
+}
+
+.neptune h1{
+    color: #00c8ff;
+    text-shadow: 5px 5px 40px #00c8ff;
+}
+
+.neptune p{
+    color: #81c9ddf8;
+    text-shadow: 5px 5px 40px #87d5ebd9;
+}
+
+.neptune img{
+    box-shadow: 1px 1px 50px #0ec0f1da;
+}
+
+.pluto{
+    height: 900px;
+    width: 90%;
+    background-color: #a9d3ee16;
+    margin-left: 5%;
+    border-radius: 10PX;
+    margin-top: 20vh;
+    padding-top: 30px;
+}
+
+.pluto-1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+.pluto-1 div{
+    width: 60%;
+    position: relative;
+    bottom: 30px;
+}
+
+.pluto-1 h1{
+    font-size: 3.5rem;
+    margin-bottom: 0%;
+}
+
+.pluto-1 p{
+    font-size: 1.4rem;
+    text-shadow: 5px 5px 40px #ffffffd5;
+    line-height: 30px;
+    margin-top: 20px;
+}
+
+.pluto-1 img{
+    height: 320px;
+    width: 320px;
+    border-radius: 10px;
+}
+
+.pluto-2{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+.pluto-2 div{
+    width: 50%;
+    position: relative;
+    bottom: 5px;
+}
+
+.pluto-2 p{
+    font-size: 1.4rem;
+    line-height: 30px;
+    margin-top: 20px;
+    color: #f5bd5ce6;
+    text-shadow: 5px 5px 40px #f7c56ecf;
+}
+
+.pluto-2 img{
+    height: 320px;
+    width: 40%;
+    border-radius: 10px;
+    box-shadow: 1px 1px 50px #01106c;
+}
+
+.pluto-2 span{
+    font-size: 2.5rem;
+    position: absolute;
+    bottom: -80px;
+    left: -25px;
+    color: #fd7a00;
+}
+
+.pluto-1 h1{
+    color: #daaf65;
+    text-shadow: 5px 5px 40px #daaf65;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.pluto-1 p{
+    color: #e8d2aceb;
+    text-shadow: 5px 5px 40px #f8dcacd8;
+}
+
+.pluto-1 img{
+    box-shadow: 1px 1px 50px #daaf65dd;
+}
+
+.plto p{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 500;
+}
